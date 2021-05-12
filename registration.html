@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAC8vLwA////ACgoKADJyckAeHh4AP7+/gBWVlYAJycnANXV1QBBQUEAJiYmAPb29gDU1NQAQEBAAPX19QBoaGgApKSkAImJiQDg4OAAZ2dnAJaWlgDf398Avb29ACkpKQB5eXkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgcCAgIXAgICAgICAgICFwIXAgIXAgcCAgIXBwcCAgcCBwICAgICAhcCBxcCAgICFAEBBQEBAQgTFwICAgIXAgQBAQEBAQEBARMXBwICAgICDgEGAgIHDAEAAgICAhcCAhIBFAICAhYFFgICAgcCAgIAAQEBAQEBDgYCAhcCAgICFAEBAQEBAQwJAgICAgICAhgFCwICBxABAwcCAgIXAgICCwEPAgIRAQ4XAgIXBwcCFxUBAQEFAQEMFwcXBwIXFwoWAQEFAQEIDQIXAgIHAgIXFwICAgcCBxcCAgICFwIXAgICAgICAgIHAgcCAgIXAgICFwICFwcCAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
+
+<title>Registration Form</title>
+</head>
+<body>
+<form action="thanks.html" method+"GET">
+    <table width=800 align="center">
+        <tr>
+            <td colspan="2" align="center"><h1>Registration form</h1></td>
+        </tr>
+        <tr>
+            <td><lable for="fname">Enter your First Name:</lable></td>
+            <td><input type="text" id="fname" name="fname" required></td>
+        </tr>
+        <tr>
+            <td><lable for="lname">Enter your Last Name:</lable></td>
+            <td><input type="text" id="lname" name="lname"></td>
+        </tr>
+        <tr>
+            <td><lable for="psw">Choose your Password:</lable></td>
+            <td><input type="password" id="psw" required></td>
+        </tr>
+        <tr>
+            <td>Choose your Gender:</td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <lable for="male">Male</lable>
+                <br>
+                <input type="radio" id="female" name="gender" value="female">
+                <lable for="female">Female</lable>
+                <br>
+                <input type="radio" id="Other" name="gender" value="other">
+                <lable for="other">Other</lable>
+            </td>
+        </tr>
+        <tr>
+            <td>Tick your Qualification:</td>
+            <td>
+                <input type="checkbox" id="qual1" name="qual1" value="school">
+                <lable for="qual1">School</lable>
+                <br>
+                <input type="checkbox" id="qual2" name="qual2" value="graduate">
+                <lable for="qual2">Graduate</lable>
+                <br>
+                <input type="checkbox" id="qual3" name="qual3" value="Post graduate">
+                <lable for="qual3">Post Graduate</lable>
+                <br>
+                <input type="checkbox" id="qual4" name="qual4" name="qual1" value="PhD">
+                <lable for="qual4">PhD</lable>
+                <br>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <lable for="country">Select your Country</lable>
+                <td>
+                    <select name="country" id="country">
+                        <option value="America">America</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Denmark">Demark</option>
+                        <option value="India">India</option>
+                        <option value="Zambia">Zambia</option>
+
+                    </select>
+                </td>
+            </td>
+            </tr>
+
+            <tr>
+                <td><lable for="address">Enter Address:</lable></td>
+                <td>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
+
+                </td>
+            </tr>
+            <tr>
+                <td><lable for="dob">Enter your Date Of Birth:</lable></td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td><lable for="photo">Upload your Photo:</lable></td>
+            <td><input type="file" naame="photo" id="photo"></td>
+            </tr>
+
+            <tr>
+            <td><input type="Submit" ></td>
+            <td><input type="Reset" ></td>
+        </tr>
+        <tr>
+            <td><lable for="emailid">Enter your Email:</lable></td>
+        <td><input type="email" name="emailid" id="emailid"></td>
+    </tr>
+    </table>
+</form>
+</body>
+</html>html>
